@@ -12,7 +12,7 @@ import { Record } from '../../../redux/actions/userActions'
 
 const FinishGame = ({ newGame, title, textButton, closeModal, active }) => {
     const dispatch = useDispatch()
-    const { records } = useSelector(state => state.userReducer)
+    const { records,name } = useSelector(state => state.userReducer)
     const { difficulty, time, state } = useSelector(state => state.gameReducer)
     const [nr, setNr] = useState(null)
     const currentRecord = records[difficulty] && records[difficulty].score
@@ -20,7 +20,7 @@ const FinishGame = ({ newGame, title, textButton, closeModal, active }) => {
     const [closeModalContent, setCloseModalContent] = useState('')
 
     useEffect(() => {
-        state === "win" && SaveNewRecord()
+        name && state === "win" && SaveNewRecord()
     }, [time])
 
 
