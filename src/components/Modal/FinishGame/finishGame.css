@@ -1,0 +1,57 @@
+@import '../../../assets/_master.css';
+
+.finishContainer{
+    position: relative;
+    display: grid;
+    width: 350px;
+    color:var(--cream);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .7fr 1fr .7fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "title"
+      "body"
+      "button";
+}
+.finish-body{ 
+    display: flex;
+    justify-content: center;
+    grid-area: body; 
+}
+
+.finish-button { 
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+      grid-area: button; 
+    }
+.newRecord{
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 600;
+font-size: 1.5em;
+}
+.newRecord-icon{
+    height: 30px;
+    width: 30px;
+}
+.finish-title{
+    text-align: center;
+    grid-area: title;
+}
+
+.finish-title-loss{
+    color: #B0363E;
+}
+
+.finish-title-win{
+    color: #139374;
+}
+
+@media (max-width: 400px){
+    .finishContainer{
+      width: 95%;
+    }
+   }

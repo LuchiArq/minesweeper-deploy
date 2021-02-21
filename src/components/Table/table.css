@@ -1,0 +1,84 @@
+@import '../../assets/_master.css';
+
+.table-game{
+    display: flex;
+    justify-content: center;
+}
+.mainContainerGame{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.game-container {
+    margin: 10px 20px;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    background: #7b5b6f;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "headerGame"
+    "table";
+}
+.game-container-headerGame {
+    border-radius: 20px 20px 0px 0px;
+    grid-area: headerGame; 
+    background: var(--background_3);
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background:var(--cream)
+  }
+  ::-webkit-scrollbar-thumb{
+
+    background:var(--background_2)
+  }
+  
+  ::-webkit-scrollbar:horizontal{
+    height: 5px;
+    background:var(--cream)
+  }
+  ::-webkit-scrollbar-thumb:horizontal{
+    background:var(--background_2)
+  }
+  /* Track */
+  ::-webkit-scrollbar-track{
+    border-radius: 10px;
+  }
+   
+
+.game-container-table { 
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    grid-area: table; 
+}
+
+.game-container-table-sec{
+  width: 100%;
+  height: 100%;
+  display: grid;
+ place-items: center;
+}
+
+
+
+@media (max-width: 965px){
+  .game-container-table-sec{
+      overflow-x: auto;
+  }
+
+}
+
+@media (max-width: 600px){
+    .game-container-headerGame{
+        width: 100%;
+    }
+
+    .game-container-table-sec{
+        overflow-x: auto;
+    }
+
+}

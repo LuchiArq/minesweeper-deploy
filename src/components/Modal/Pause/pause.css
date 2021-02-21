@@ -1,0 +1,43 @@
+@import '../../../assets/_master.css';
+.pause {
+    position: relative;
+    color: var(--cream);
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .7fr 1fr .7fr;
+    grid-template-areas:
+      "title"
+      "data"
+      "button"
+  }
+ .pause-saveIcon{
+   position: absolute;
+   top:-15px;
+   right: -15px;
+ } 
+ .pause-data{
+  grid-area: data;
+  display: flex;
+  justify-content: center;
+ }
+.pause-title{
+  grid-area: title;
+}
+
+.pause-button{ 
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      grid-area: button; 
+    }
+ .pause-icon{
+   width: 50px;
+   height: 50px;
+ } 
+
+ @media (max-width: 400px){
+  .pause{
+    width: 95%;
+  }
+ }

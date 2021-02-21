@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import '../../assets/_master.css';
+
+.headerGame {
+    position: relative;
+    height: 70px;
+    width: auto;
+    align-items: center;
+    padding: 0px 10px;
+    font-family: 'Rubik', sans-serif;
+    color: var(--cream);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "pause timeAndFlag timeAndFlag save";
+  }
+.headerGame-Flag{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerGame-TimeAndFlag{
+    margin: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: timeAndFlag;
+} 
+.headerGame-icon-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    grid-area: save;
+}
+.headerGame-pause{
+    display: flex;
+}
+.headerGame-icon{
+    width: 45px;
+    height: 45px;
+}
+
+.headerGame-icon-back{
+    width: 60px;
+    height: 60px;
+  
+}
+
+.headerGame-link-back{
+    position:absolute;
+    left: -70px;
+}
+.headerGame-pause button{
+    width: auto;
+    padding: 3px;
+}
+
+@media (max-width: 600px){
+    .headerGame {
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+        "pause timeAndFlag timeAndFlag save";
+      }
+      .headerGame-pause{
+          font-size: 12px;
+      }
+      .headerGame-icon-container{
+         right: 10px;
+      }
+
+      .headerGame-link-back{
+        top: -70px;
+        left: 0;
+    }
+} 

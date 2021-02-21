@@ -1,0 +1,13 @@
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    margin: 0px 5px;
+}
+
+.time-reloj{
+    display: flex;
+    height: 35px;
+    width: 35px;
+}

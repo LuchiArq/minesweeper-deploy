@@ -1,0 +1,9 @@
+.loadingAnimation-area{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.loadingAnimation-icon { 
+    height: 60px;
+    width: 60px;
+  }

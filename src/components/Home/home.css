@@ -1,0 +1,131 @@
+@import '../../assets/_master.css';
+
+.home{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 85%;
+    width: 70%;
+    background-image: url(../../assets/homeBackground.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.3);
+}
+.home-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    grid-template-rows: .3fr 1fr .3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "buttonGroup buttonGroup"
+      "welcome ."
+      "aclaracion jugar"
+  }
+  .home-container-buttonGroup{
+      grid-area:buttonGroup;
+      display: flex;
+      justify-content: space-between;
+  }
+
+.home-button-jugar{ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    grid-area: jugar;
+}
+
+.home-text-aclaracion{
+    grid-area: aclaracion;
+    display: flex;
+    align-items: flex-end;
+    font-size: 12px;
+    color :var(--cream);
+    }
+.home-container-welcome{
+    grid-area: welcome; 
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.home-text{
+    width: 60%;
+    font-size: calc(.6em + .5vw);
+    color : var(--cream);
+}   
+.home-button-rules{
+    margin: 20px 0px;
+}
+.profile-name{
+    display:flex;
+    align-items: center;
+}
+.home-title{
+    width: auto;
+    font-size: calc(3em + 1vw);
+    font-weight: 750;
+    color:var(--title);
+    letter-spacing: 5px;
+    border-radius: 10px;
+}
+@media (max-width: 1050px) { 
+    .home{
+        width: 85%;
+    }
+    .home-container{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .2fr 1fr .3fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          "buttonGroup buttonGroup"
+          "welcome welcome"
+          "aclaracion jugar";
+    }
+    .home-container-welcome{
+        grid-area: welcome; 
+        width: 75%;
+    }
+    .home-title{
+        font-size: calc(2.5em + 1vw);
+    }
+    .home-text{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 800px) {
+    .home-title{
+        font-size: calc(2.5em + 1vw);
+    }
+    .home-text{
+        width: 90%;
+        font-size: 14px;
+    }
+    .home-container{
+        height:  100%;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .4fr 1fr .8fr .1fr;
+        grid-template-areas:
+        "buttonGroup"
+        "welcome"
+        "jugar"
+        "aclaracion";
+    }
+    .home-container-welcome{
+        grid-area: welcome; 
+        width: 100%;
+    }
+    .home-button-jugar{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: jugar;
+       }
+}
+

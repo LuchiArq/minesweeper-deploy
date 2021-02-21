@@ -1,0 +1,23 @@
+@import '../../assets/_master.css';
+
+  .flagAndTime-body{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px ;
+    border:solid 3px var(--cream);
+    width: 80%;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .flagAndTime-icon{
+    width: 50px;
+    height: 50px;
+  } 
+  .flagAndTime-body-score{
+    display: flex;
+    align-items: center;
+  }

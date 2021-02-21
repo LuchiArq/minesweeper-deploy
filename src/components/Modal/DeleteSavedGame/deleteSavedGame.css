@@ -1,0 +1,9 @@
+.delete-modal{
+    width: 350px;
+    height: auto;
+}
+
+.delte-modal-button{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+@import '../../assets/_master.css';
+
+.button{
+    color:var(--cream);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    height: 40px;
+    box-shadow: 0px 3px 0px 0px #501732;
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .4s;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button-large{
+    width: 150px;
+}
+
+.button:active{
+    box-shadow:none;
+    transform: translateY(2px);
+}
+
+.button-primary{
+    border: solid 4px #441738;
+    background-color: #ad3450;
+}
+
+.button-secondary{
+    font-size: 1em;
+    background-color: #ad3450;
+    
+}
+
+.button-login{
+    font-size: 1em;
+    background-color:transparent;
+    border: solid 4px #ad3450;
+    
+}
