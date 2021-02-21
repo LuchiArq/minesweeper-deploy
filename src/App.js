@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route , HashRouter} from 'react-router-dom';
 import React,{useEffect} from 'react';
 import Table from './components/Table/Table.jsx'
 import  Home from './components/Home/Home.jsx'
@@ -19,11 +19,11 @@ function App() {
   },[])
 
   return ( 
-    <Router basename={process.env.REACT_APP_ROUTER_BASE || ''}>
+    <HashRouter basename={process.env.REACT_APP_ROUTER_BASE || ''}>
         <Route exact path="/" component={Home}/> 
         <Route exact path="/game" component={Table} />
         <Route exact path="/profile" component={Profile} />
-    </Router>
+    </HashRouter>
   );
 }
 
