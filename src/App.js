@@ -19,7 +19,7 @@ function App() {
   },[])
 
   return ( 
-    <Router >
+    <Router basename={process.env.REACT_APP_ROUTER_BASE || ''}>
         <Route exact path="/" component={Home}/> 
         <Route exact path="/game" component={Table} />
         <Route exact path="/profile" component={Profile} />
