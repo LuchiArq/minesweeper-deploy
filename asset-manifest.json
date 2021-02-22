@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/minesweeper-deploy/static/css/main.494043ef.chunk.css",
-    "main.js": "/minesweeper-deploy/static/js/main.f6717a94.chunk.js",
-    "main.js.map": "/minesweeper-deploy/static/js/main.f6717a94.chunk.js.map",
+    "main.css": "/minesweeper-deploy/static/css/main.2cd64d95.chunk.css",
+    "main.js": "/minesweeper-deploy/static/js/main.4fcada89.chunk.js",
+    "main.js.map": "/minesweeper-deploy/static/js/main.4fcada89.chunk.js.map",
     "runtime-main.js": "/minesweeper-deploy/static/js/runtime-main.a1b7374c.js",
     "runtime-main.js.map": "/minesweeper-deploy/static/js/runtime-main.a1b7374c.js.map",
     "static/js/2.041b356d.chunk.js": "/minesweeper-deploy/static/js/2.041b356d.chunk.js",
     "static/js/2.041b356d.chunk.js.map": "/minesweeper-deploy/static/js/2.041b356d.chunk.js.map",
     "index.html": "/minesweeper-deploy/index.html",
-    "static/css/main.494043ef.chunk.css.map": "/minesweeper-deploy/static/css/main.494043ef.chunk.css.map",
+    "static/css/main.2cd64d95.chunk.css.map": "/minesweeper-deploy/static/css/main.2cd64d95.chunk.css.map",
     "static/js/2.041b356d.chunk.js.LICENSE.txt": "/minesweeper-deploy/static/js/2.041b356d.chunk.js.LICENSE.txt",
     "static/media/back.c6a16201.svg": "/minesweeper-deploy/static/media/back.c6a16201.svg",
     "static/media/index.css": "/minesweeper-deploy/static/media/background.7121dbcc.svg",
@@ -17,7 +17,7 @@
     "static/media/close.5b3afd50.svg": "/minesweeper-deploy/static/media/close.5b3afd50.svg",
     "static/media/cup.0c830129.svg": "/minesweeper-deploy/static/media/cup.0c830129.svg",
     "static/media/flag.a553f2fc.svg": "/minesweeper-deploy/static/media/flag.a553f2fc.svg",
-    "static/media/home.css": "/minesweeper-deploy/static/media/homeBackground.c619a937.svg",
+    "static/media/home.css": "/minesweeper-deploy/static/media/homeBackground.ded6c30d.svg",
     "static/media/iconProfile.cfb4f8c1.svg": "/minesweeper-deploy/static/media/iconProfile.cfb4f8c1.svg",
     "static/media/profile.css": "/minesweeper-deploy/static/media/profileBackground.6a41e1fa.svg",
     "static/media/reloj.762da34e.svg": "/minesweeper-deploy/static/media/reloj.762da34e.svg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.a1b7374c.js",
     "static/js/2.041b356d.chunk.js",
-    "static/css/main.494043ef.chunk.css",
-    "static/js/main.f6717a94.chunk.js"
+    "static/css/main.2cd64d95.chunk.css",
+    "static/js/main.4fcada89.chunk.js"
   ]
 }
