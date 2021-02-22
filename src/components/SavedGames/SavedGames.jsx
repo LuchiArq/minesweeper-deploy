@@ -54,7 +54,7 @@ const [gameId, setGameId] = useState()
                            
                         
                         )
-                    })  : <h4 >No posee Tablas Guardadas</h4>  }
+                    })  : <h4 >No existen partidas guardadas</h4>  }
             </div> 
         </div>
     )

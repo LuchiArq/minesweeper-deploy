@@ -98,7 +98,7 @@ return ReactDom.createPortal(
 
                        //errores columnas 
                        if(!values.columns){
-                           errors.columns="La cantidad de filas no puede ser 0"
+                           errors.columns="La cantidad de columnas no puede ser 0"
                        }else if(values.columns<5){
                            errors.columns="La cantidad de columnas debe ser mayor o igual a 5"
                        }else if(values.columns>34){
