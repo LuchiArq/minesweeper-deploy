@@ -6,7 +6,6 @@ import './recordsContainer.css';
 const RecordsContainer  = () =>{
     
 const {records} = useSelector((store) => store.userReducer)
-const {Facil,Medio,Dificil} = records 
 
     return(
         <div className="recordContainer">
